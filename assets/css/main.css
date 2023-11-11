@@ -2450,12 +2450,12 @@ article {
 	@media (max-width: 736px) {
 		.images {
 			
-			margin-top: 95px;
+			margin-top: 60px;
 		}
 		
 		/* Additional adjustments if needed */
 		.majors {
-			margin-top: -295px;
+			margin-top: -270px;
 		}
 		
 		.fitsw {
@@ -2463,8 +2463,8 @@ article {
 		}
 		.images {
 			border-radius: 50% !important;
-			width: 186px !important; /* Set the desired width */
-			height: 200px !important; /* Set the desired height */
+			width: 175px !important; /* Set the desired width */
+			height: 166px !important; /* Set the desired height */
 			object-fit: cover !important; /* Preserve the aspect ratio and cover the container */
 		}
 		
