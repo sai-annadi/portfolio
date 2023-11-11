@@ -4288,7 +4288,7 @@ article {
 
 			#footer .inner {
 				padding: 2em 2em 0.1em 2em ;
-				margin-left: 0px !important;
+				
 			}
 
 				#footer .inner form {
@@ -4297,6 +4297,7 @@ article {
 
 				#footer .inner .contact {
 					margin: 0 0 3em 0;
+					margin-left:0px !important;
 				}
 
 	}
