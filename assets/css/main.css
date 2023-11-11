@@ -2447,9 +2447,30 @@ article {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-
+	@media (max-width: 736px) {
+		.images {
+			
+			margin-top: 95px;
+		}
+		
+		/* Additional adjustments if needed */
+		.majors {
+			margin-top: -295px;
+		}
+		
+		.fitsw {
+			margin-top: 243px;
+		}
+		.images {
+			border-radius: 50% !important;
+			width: 186px !important; /* Set the desired width */
+			height: 200px !important; /* Set the desired height */
+			object-fit: cover !important; /* Preserve the aspect ratio and cover the container */
+		}
+		
+		}
 /* Image */
-
+  
 	.image {
 		border-radius: 5px;
 		border: 0;
@@ -2467,7 +2488,7 @@ article {
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 50%;
 			}
 
 		.image.left {
@@ -2485,7 +2506,7 @@ article {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 50%;
 		}
 
 			.image.fit img {
@@ -4288,7 +4309,7 @@ article {
 
 			#footer .inner {
 				padding: 2em 2em 0.1em 2em ;
-				
+				margin-left: 0px !important;
 			}
 
 				#footer .inner form {
@@ -4297,9 +4318,11 @@ article {
 
 				#footer .inner .contact {
 					margin: 0 0 3em 0;
-					margin-left:0px !important;
+					margin-left: 0px !important;
 				}
-
+		.min {
+			margin-top:20px !important;
+		}
 	}
 
 	@media screen and (max-width: 480px) {
@@ -4321,6 +4344,8 @@ article {
 
 		#footer .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
+			
 		}
+		
 
 	}
